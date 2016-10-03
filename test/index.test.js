@@ -12,6 +12,8 @@ test('setup', function (t) {
 test('usage', function (t) {
   var got = c.usage()
   t.true(got.match(/usage/), 'returns some instructions')
+  t.true(got.match(/usage: cli-defaults/), 'finds package name')
+  t.true(got.match(/Any cli tool/), 'finds package description')
   t.true(got.length > 50, 'lots of instructions')
   t.end()
 })

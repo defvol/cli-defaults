@@ -1,0 +1,31 @@
+{
+  "name": "cli-defaults",
+  "version": "0.1.0",
+  "description": "Any cli tool should provide these options",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint lib/*.js test/*.js",
+    "pretest": "npm run lint",
+    "test": "tape test/*.test.js"
+  },
+  "keywords": [
+    "generator-npm-pasta",
+    "cli",
+    "command-line",
+    "defualts",
+    "generator"
+  ],
+  "author": "rodowi",
+  "license": "ISC",
+  "repository": "rodowi/cli-defaults",
+  "devDependencies": {
+    "eslint": "^3.7.0",
+    "eslint-config-standard": "^6.2.0",
+    "eslint-plugin-promise": "^2.0.1",
+    "eslint-plugin-standard": "^2.0.1",
+    "tape": "^4.6.2"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
+}

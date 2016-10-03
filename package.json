@@ -1,6 +1,6 @@
 {
   "name": "cli-defaults",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Any cli tool should provide these options",
   "main": "lib/index.js",
   "scripts": {
